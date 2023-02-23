@@ -13,4 +13,10 @@ matplotlib \
 sklearn \
 statsmodels \
 scipy \
-seaborn
+seaborn \
+tensorflow \
+plotly
+
+WORKDIR /home
+
+CMD ["jupyter-notebook", "--allow-root", "--ip", "0.0.0.0", "--no-browser"]
